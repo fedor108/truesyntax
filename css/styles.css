@@ -50,3 +50,13 @@ h5 {
 .portfolio a:hover {
   color: rgb(160, 48, 0);
 }
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content:  "—";
+  position: relative;
+  left:     -5px;
+}
